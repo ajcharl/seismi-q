@@ -37,22 +37,6 @@ npm install
 npm run dev
 ```
 
-## API Endpoints
 
-- `GET /api/earthquakes/live?feed=all_day` — Real-time feed (all_hour, all_day, all_week, m45_day, significant_month)
-- `GET /api/earthquakes/search?starttime=...&endtime=...&minmagnitude=...` — Custom search
-- `GET /api/earthquakes/:id` — Event detail
-- `GET /api/earthquakes/:id/aftershock-forecast` — Aftershock probability estimates (M4.0+)
-- `GET /api/earthquakes/nearby/search?lat=...&lng=...&radius=100` — Nearby historical activity
-- `POST /api/alerts/zones` — Create monitoring zone
-- `GET /api/alerts/check` — Check zones against recent activity
-
-## Aftershock Model
-
-The aftershock forecasting uses three established seismological relationships:
-
-- **Bath's Law:** Largest aftershock is typically ~1.2 magnitudes below the mainshock
-- **Omori's Law:** Aftershock rate decays as n(t) = K / (c + t)^p
-- **Gutenberg-Richter:** log₁₀(N) = a - bM relates frequency to magnitude
 
 
