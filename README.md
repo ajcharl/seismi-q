@@ -1,4 +1,4 @@
-# SeismiQ — Real-Time Earthquake Monitor & Aftershock Forecaster
+# Real-Time Earthquake Monitor & Aftershock Forecaster
 
 Live earthquake monitoring dashboard with aftershock probability estimation, powered by USGS real-time seismic data.
 
