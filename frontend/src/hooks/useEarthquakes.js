@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const API = '/api';
+const API = 'https://seismi-q.onrender.com/api';
 
 export function useLiveFeed(feed = 'all_day', refreshInterval = 60000) {
   const [data, setData] = useState(null);
